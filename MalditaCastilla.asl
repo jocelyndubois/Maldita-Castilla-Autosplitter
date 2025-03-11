@@ -3,7 +3,7 @@ state("maldita_castilla_arcade_cabinet")
     int map :  "maldita_castilla_arcade_cabinet.exe", 0x00092358, 0x0;
     int lives :  "maldita_castilla_arcade_cabinet.exe", 0x00004EBC, 0x0;
     int canMove :  "maldita_castilla_arcade_cabinet.exe", 0x00304B84, 0x8, 0xB4;
-    int menuOpen :  "maldita_castilla_arcade_cabinet.exe", 0x00304B8C, 0x110, 0xC, 0xB4;
+    int menuOpen :  "maldita_castilla_arcade_cabinet.exe", 0x00304B8C, 0x0, 0xE8, 0xC, 0xC0;
     int startGame :  "maldita_castilla_arcade_cabinet.exe", 0x00305F1C, 0x20, 0x18, 0x24;
 }
 
